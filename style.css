@@ -11,7 +11,7 @@ body{
 .container{
     max-width: 1400px;
     margin: auto;
-    margin-top: 70px;
+    margin: 70px 20px 20px 20px;
     display: grid;
     grid-template-columns: 1.75fr 4fr 1.25fr;
     grid-gap: 15px;
@@ -61,7 +61,7 @@ header {
     width: 100%;
 }
 
-.fa-home {
+header .fa-home {
     margin-right: 15px;
 }
 
@@ -70,7 +70,7 @@ header {
     text-decoration: none;
     padding: 10px 0 0 15px;
 }
-li i {
+header li i {
     color: white;
 }
 .home:hover {
@@ -240,7 +240,7 @@ li i {
 
 /* center-column starts here */
 .post {
-    border: 1px solid lightgrey;
+    box-shadow: 0 0 10px 3px lightgray;
     border-radius: 3px;
     padding: 8px;
 }
@@ -294,12 +294,10 @@ li i {
     color: grey;
 }
 hr {
+    margin: 15px 0;
     border: none; 
     height: 1px; 
     background: lightgray; 
-}
-.clr {
-    clear: both;
 }
 
 .picture1, .picture2 {
@@ -315,12 +313,7 @@ hr {
 .picture {
     width: 90%;
 }
-hr {
-    margin: 15px 0;
-}
-.post {
-    box-shadow: 0 0 10px 3px lightgray;
-}
+  
 .third{
     margin-bottom: 20px; 
 }
@@ -354,20 +347,15 @@ hr {
 }
 
 .row-one img {
-    width: 100%;
-    height: auto;
-    vertical-align: middle;
+    width: 100%;  
 }
 
 .row-two img {
     width: 50%;
-    vertical-align: middle;
 }
 
 .buttons {
     display: flex;
-    overflow: hidden;
-    vertical-align: middle;
 }
 
 .btn-1 {
@@ -427,7 +415,6 @@ footer {
     background-color:  rgb(35, 160, 218);
     font-size: 20px;
     padding: 30px 10px;
-    
     width: 100%;
 }
 .lower-footer {
